@@ -1,6 +1,6 @@
 # API Sentiment Project!
 
-## Welcome to my new project!
+Welcome to my new project!
 
 ## This project focuses in a few things:
 
@@ -9,7 +9,7 @@ to get the negativity or positivity of a given tweet. The tweets are only themed
 things that they want to complain or talk about, so you won't find tweets about
 anything else here!
 
-#### Also you can tweet your own things and have some fun analyzing you emotions later!
+#### Also you can tweet your own things and have some fun analyzing you emotions later!
 
 
 - First, we started an API using flask! This will get our clients in touch with
