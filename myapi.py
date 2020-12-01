@@ -48,13 +48,13 @@ def analyzeSentiment(username):
 
 # POST REQUESTS:
 @app.route("/newtweet",methods=["POST"])
-def tweet():
+def newTweet():
     # function to instert a new tweet from a user.
-    reason = request.form.get.tweet("negativereason")
-    airline = request.form.get.tweet("airline")
-    name = request.form.get.tweet("name")
-    text = request.form.get.tweet("text")
-    location = request.form.get.tweet("tweet_location")
+    reason = request.form.get("negativereason")
+    airline = request.form.get("airline")
+    name = request.form.get("name")
+    text = request.form.get("text")
+    location = request.form.get("tweet_location")
     pos.tweet(reason, airline, name, text, location)
     return "Mensaje introducido correctamente en la base de datos"
 

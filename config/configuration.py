@@ -6,11 +6,11 @@ dotenv.load_dotenv()
 
 DBURL = os.getenv("URL")
 
-#Vamos a conectar con la base de datos de mongo en local
+# Here, we will connect to our local mongo database:
 if not (DBURL):
     raise ValueError("You must specify a URL")
 
-
+# This gets the collection inside our database that we will work with!
 client = MongoClient(DBURL)
 db = client.get_database()
 collection = db["Sentiment"]
